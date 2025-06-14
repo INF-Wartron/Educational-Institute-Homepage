@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VK Academy</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+  <div class="nav-container">
+    <img src="vk.png" alt="VK Academy Logo" class="vk-logo" />
+    <h1 class="logo-text">VK Academy</h1>
+    <nav>
+      <ul>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#demo">Free Demo</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <section class="hero">
+    <h2>Empowering Education for All</h2>
+    <p>Join VK Academy & explore the future of learning!</p>
+    <button onclick="scrollToSection('courses')">View Courses</button>
+  </section>
+
+  <section id="Courses" class="animate-block delay-1">
+    <h2>Our Courses</h2>
+    <div class="course-grid">
+      <div class="course">9th, 10th (All Subjects)</div>
+      <div class="course">11th, 12th (Maths, Physics, Chemistry, Commerce)</div>
+      <div class="course">BSc, MSc, BCA, MCA, B.Pharma, Diploma</div>
+      <div class="course">B.Com, M.Com, MBA (Maths, Physics, Chemistry, Accounts, Computer)</div>
+      <div class="course">B.Tech (M1, M2, M3, M4)</div>
+    </div>
+  </section>
+  
+  <section id="demo" class="demo-banner">
+  <div class="demo-box">
+    <h2>🎓 Free 5-Day Demo Classes!</h2>
+    <p>Experience expert-led sessions and discover why students choose VK Academy.</p>
+  </div>
+</section>
+
+
+  <section id="courses" class="animate-block delay-1">
+  <div class="container">
+    <h2 class="section-title">Courses & Pricing</h2>
+    <div class="courses-grid">
+      <div class="course-card animate-block delay-1">
+        <h3>Python Programming</h3>
+        <p>Start from scratch and master Python covering everything from the basics to advanced concepts like Object-Oriented Programming and popular libraries.</p>
+        <div class="price">₹ 5,000 / month</div>
+      </div>
+      <div class="course-card animate-block delay-2">
+        <h3>Data Structures & Algorithms</h3>
+        <p>Develop strong problem-solving skills by learning core data structures and algorithms with hands-on coding practice and real-world examples.</p>
+        <div class="price">₹ 6,500 / month</div>
+      </div>
+      <div class="course-card animate-block delay-3">
+        <h3>Artificial Intelligence & Machine Learning</h3>
+        <p>Dive into the world of AI and ML — understand essential models, algorithms, and build real-time intelligent systems through practical projects.</p>
+        <div class="price">₹ 7,500 / month</div>
+      </div>
+      <div class="course-card animate-block delay-4">
+        <h3>Web Development (Frontend + Backend)</h3>
+        <p>Become a full-stack developer by building dynamic, responsive websites using HTML, CSS, JavaScript, and backend technologies.</p>
+        <div class="price">₹ 4,500 / month</div>
+      </div>
+      <div class="course-card animate-block delay-5">
+        <h3>Blockchain Technology</h3>
+        <p>Gain a solid understanding of blockchain principles, smart contracts, and decentralized applications with industry-relevant use cases.</p>
+        <div class="price">₹ 5,000 / month</div>
+      </div>
+      <div class="course-card animate-block delay-6">
+        <h3>Cybersecurity Fundamentals</h3>
+        <p>Explore the foundations of cybersecurity, including common threats, best practices, and strategies to secure digital systems.</p>
+        <div class="price">₹ 6,500 / month </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formResponse"></p>
+  </section>
+
+  <section id="location">
+    <h2>Our Location</h2>
+    <div class="map-container">
+      <iframe
+        src="https://maps.google.com/maps?q=VK%20Academy%20Bangalore&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <div class="social-icons">
+    </div>
+    <p>&copy; 2025 VK Academy. All rights reserved.</p>
+  </footer>
+
+  <!-- Floating Buttons -->
+  <a href="https://wa.me/919999999999" class="float whatsapp" target="_blank" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="tel:+919999999999" class="float call" title="Call Us">
+    <i class="fas fa-phone-alt"></i>
+  </a>
+
+  <script src="script.js"></script>
+
+  <!-- Floating Buttons with Labels -->
+<a href="https://wa.me/919999999999" class="float-btn whatsapp" target="_blank" title="Chat on WhatsApp">
+  <i class="fab fa-whatsapp"></i><span>WhatsApp</span>
+</a>
+
+<a href="tel:+919999999999" class="float-btn call" title="Call Us">
+  <i class="fas fa-phone-alt"></i><span>Call Now</span>
+</a>
+
+
+</body>
+</html>
